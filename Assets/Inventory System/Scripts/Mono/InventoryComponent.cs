@@ -5,13 +5,13 @@ public class InventoryComponent : MonoBehaviour
 {
     [SerializeField] InventoryData inventoryData;
 
-    [Header("Item Detection Settings")]
-    [SerializeField] SphereCollider col;
-    [SerializeField] float collisionRadius;
+    
+    SphereCollider col;
+    float collisionRadius;
 
     private void Start()
     {
-        InitiateSphere();
+        InitiateComponents();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -23,7 +23,7 @@ public class InventoryComponent : MonoBehaviour
             item.Collect();
         }
     }
-    private void InitiateSphere()
+    private void InitiateComponents()
     {
         if(col == null)
         {
