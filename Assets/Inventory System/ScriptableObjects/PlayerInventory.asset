@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5b83ddb62e2ea449a0e0fe7408c2897, type: 3}
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - item: {fileID: 11400000, guid: ee7c2fb706fb21b41870167f75290054, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 95b50eda500accc4e9a93f58a7e7cbd8, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: d8274618f69916947974b93b1e37e342, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 0c9acee7bc5b7ce4e872fb6910d703a6, type: 2}
+    count: 0
+  - item: {fileID: 11400000, guid: 130b41a63ae55f940a5476c7f50284da, type: 2}
+    count: 0

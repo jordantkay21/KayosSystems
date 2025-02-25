@@ -150,5 +150,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5dd018e6400ce4fbc636c6eacff445, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 0}
+  itemData: {fileID: 11400000, guid: 95b50eda500accc4e9a93f58a7e7cbd8, type: 2}
   collectAmount: 1
